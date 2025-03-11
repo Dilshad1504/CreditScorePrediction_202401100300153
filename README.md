@@ -25,6 +25,7 @@ Finally, we created two graphs:
 
 Actual vs Predicted Graph → Shows how close the predicted credit scores are to the actual scores.
 Feature Importance Graph → Shows which factor (Age, Income, Loan Amount) has the most influence on credit score.
-✅ Why This Project is Important:
+
+Why This Project is Important:
 This project is used in banks, financial institutions, and credit card companies to make decisions about loan approval.
 It helps reduce financial risk by predicting credit scores accurately.
