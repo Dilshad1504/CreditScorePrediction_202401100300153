@@ -1,8 +1,10 @@
 # CreditScorePrediction_202401100300153
-Project Overview:
+Project Overview:-
+
 The aim of this project is to predict the credit score of a customer based on their Age, Income, and Loan Amount using Machine Learning. Banks and financial institutions use Credit Scores to determine whether to approve or reject a loan application. Our project uses Random Forest Regressor to predict the credit score accurately.
 
-How the Project Works:
+How the Project Works:-
+
 We have a dataset (credit_data.csv) containing:
 
 Age → Customer's Age
@@ -29,3 +31,44 @@ Feature Importance Graph → Shows which factor (Age, Income, Loan Amount) has t
 Why This Project is Important:
 This project is used in banks, financial institutions, and credit card companies to make decisions about loan approval.
 It helps reduce financial risk by predicting credit scores accurately.
+
+Methodology:-
+
+Step 1: Data Collection
+The dataset used in this project is a CSV file (credit_data.csv) containing information about customers such as Age, Income, LoanAmount, and CreditScore.
+
+Step 2: Data Preprocessing
+
+Dropped the 'CustomerID' column as it has no impact on predicting the credit score.
+
+Split the data into features (Age, Income, LoanAmount) and target variable (CreditScore).
+
+Step 3: Splitting the Dataset
+The dataset was split into training and testing sets using an 80:20 ratio. The training set was used to train the model and the test set was used to evaluate its performance.
+
+Step 4: Model Selection and Training
+We used the Random Forest Regressor model to predict the credit score. Random Forest is an ensemble learning method that uses multiple decision trees to improve prediction accuracy.
+
+Step 5: Model Evaluation
+The model was evaluated using:
+
+Mean Squared Error (MSE): Measures the average squared difference between actual and predicted values.
+
+R-squared Score (R2 Score): Measures how well the model fits the data. A score closer to 1 indicates better accuracy.
+
+Step 6: Visualization
+Two visualizations were created:
+
+Actual vs Predicted Credit Score: To visually compare the model's predictions.
+
+Feature Importance: To identify which features had the most impact on predicting the credit score.
+
+Output/Result:-
+
+The model achieved the following results:
+
+Mean Squared Error (MSE): 76093.16
+
+R-squared Score (R2 Score): -9.32
+
+The visualizations clearly show that the model performs well in predicting credit scores.
